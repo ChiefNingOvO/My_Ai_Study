@@ -1,7 +1,7 @@
+from langchain.agents import AgentState
 from langgraph.graph import StateGraph, END
 
 from langgraph_agent.graph.nodes import chatbot, tool_node, router
-from langgraph_agent.graph.state import AgentState
 
 # 创建图
 graph = StateGraph(AgentState)
